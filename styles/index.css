@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  justify-items: center;
+  background-color: hsl(212, 45%, 89%);
+  color: hsl(220, 15%, 55%);
+  min-height: 100vh;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.qr {
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  gap: 1.5rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.qr__img {
+  width: 100%;
+  border-radius: 1rem;
+}
